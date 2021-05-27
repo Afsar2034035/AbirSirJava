@@ -20,7 +20,7 @@ public class Calculator extends JFrame{
 	JLabel lblMulResult = new JLabel();
 	JLabel lblDivResult = new JLabel();
 	
-	Calculator()
+	public Calculator()
 	{
 		initSetup();
 		action();
@@ -70,6 +70,7 @@ public class Calculator extends JFrame{
 		setLocationRelativeTo(null);
 		setResizable(false);
 		setTitle("Simple Calculator");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLayout(null);
 		
 		
